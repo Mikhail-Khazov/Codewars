@@ -10,7 +10,7 @@ public class Kata {
                     sb.insert(i + 1, "1");
                     return sb.toString();
                 } else if (c < 57) {
-                    sb.replace(i, i + 1, Character.toString((char) c + 1));
+                    sb.replace(i, i + 1, Character.toString(c + 1));
                     return sb.toString();
                 } else {
                     sb.replace(i, i + 1, "0");
